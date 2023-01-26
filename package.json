@@ -1,0 +1,17 @@
+{
+  "name": "com.postegames.typehelper",
+  "version": "1.0.0",
+  "displayName": "PEGLIB - Type Helper",
+  "description": "Helper object for dealing with datatypes.",
+  "unity": "2022.2",
+  "keywords": [
+    "toolbox",
+    "shared",
+    "library"
+  ],
+  "author": {
+    "name": "Sluggy",
+    "email": "jcsluggy@gmail.com",
+    "url": "http:/postegames.com"
+  }
+}
