@@ -323,28 +323,11 @@ namespace Toolbox
         }
 
 		/// <summary>
-		/// [ <c>public static object GetDefault(this Type type)</c> ]
-		/// <para></para>
-		/// Retrieves the default value for a given Type
-		/// </summary>
-		/// <param name="type">The Type for which to get the default value</param>
-		/// <returns>The default value for <paramref name="type"/></returns>
-		/// <remarks>
-		/// If a null Type, a reference Type, or a System.Void Type is supplied, this method always returns null.  If a value type 
-		/// is supplied which is not publicly visible or which contains generic parameters, this method will fail with an 
-		/// exception.
-		/// </remarks>
-		/// <example>
-		/// To use this method in its native, non-extension form, make a call like:
-		/// <code>
-		///     object Default = DefaultValue.GetDefault(someType);
-		/// </code>
-		/// To use this method in its Type-extension form, make a call like:
-		/// <code>
-		///     object Default = someType.GetDefault();
-		/// </code>
-		/// </example>
-		/// <seealso cref="GetDefault&lt;T&gt;"/>
+        /// 
+        /// </summary>
+        /// <param name="type"></param>
+        /// <returns></returns>
+        /// <exception cref="ArgumentException"></exception>
 		public static object GetDefault(Type type)
 		{
             // If no Type was supplied, if the Type was a reference type, or if the Type was a System.Void, return null
